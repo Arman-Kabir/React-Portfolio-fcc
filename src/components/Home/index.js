@@ -8,18 +8,18 @@ const Home = () => {
 
     const [letterClass,setLetterClass] = useState('text-animate');
 
-    const nameArray = ['']
+    const nameArray = [''];
 
     return (
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hi, <br /> I'm
                     <img src={LogoTitle} alt="developer" />
-                    lobodan
+                    hovon
                     <br />
                     Web developer
                 </h1>
-                <h2>Frontend Developer / JavaScript Developer</h2>
+                <h2>Frontend Developer / JavaScript Programmer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </div>
